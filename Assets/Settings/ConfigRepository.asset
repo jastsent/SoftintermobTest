@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc681a2b542647c096294c20d962e839, type: 3}
+  m_Name: ConfigRepository
+  m_EditorClassIdentifier: Repositories::Repositories.BuildingsRepository
+  <FieldSizeX>k__BackingField: 32
+  <FieldSizeY>k__BackingField: 32
+  <StartGold>k__BackingField: 10
+  _houseLevels:
+  - <Cost>k__BackingField: 5
+    <Income>k__BackingField: 1
+  - <Cost>k__BackingField: 7
+    <Income>k__BackingField: 2
+  - <Cost>k__BackingField: 10
+    <Income>k__BackingField: 3
+  _farmLevels:
+  - <Cost>k__BackingField: 10
+    <Income>k__BackingField: 2
+  - <Cost>k__BackingField: 15
+    <Income>k__BackingField: 3
+  - <Cost>k__BackingField: 20
+    <Income>k__BackingField: 4
+  _mineLevels:
+  - <Cost>k__BackingField: 15
+    <Income>k__BackingField: 3
+  - <Cost>k__BackingField: 25
+    <Income>k__BackingField: 4
+  - <Cost>k__BackingField: 35
+    <Income>k__BackingField: 5
